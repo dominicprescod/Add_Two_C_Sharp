@@ -12,12 +12,8 @@ namespace calculator
       string sNum = Prompt();
       addTwo(fNum, sNum);
     }
-    // Checks for valid number
-    // private static int Parsing(string value)
-    // {
-      
-    // }
-    // Get's info from the user
+    
+    // Gets input from the user
     private static string Prompt()
     {
      string all = Console.ReadLine();
